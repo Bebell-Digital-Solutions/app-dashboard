@@ -4,6 +4,17 @@ document.addEventListener('DOMContentLoaded', function() {
   const appFrame = document.getElementById('app-frame');
   const searchInput = document.getElementById('search');
   const darkModeToggle = document.getElementById('dark-mode-toggle');
+
+
+
+// Add this at the end of your DOMContentLoaded handler
+document.getElementById('sidebar-toggle').addEventListener('click', () => {
+  document.querySelector('.sidebar').classList.toggle('collapsed');
+  document.querySelector('.dashboard').classList.toggle('sidebar-collapsed');
+});
+
+
+  
   
   // Show loading state
   sidebar.innerHTML = '<div class="loading">Loading apps...</div>';
