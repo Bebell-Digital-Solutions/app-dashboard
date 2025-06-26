@@ -1,0 +1,268 @@
+{
+  "categories": [
+    {
+      "id": "organizacion",
+      "name": "Organización",
+      "icon": "folder-kanban",
+      "description": "Herramientas para estructurar tareas, notas y archivos de manera eficiente.",
+      "subcategories": [
+        { "id": "org-tareas", "name": "Gestión de Tareas" },
+        { "id": "org-notas", "name": "Toma de Notas" },
+        { "id": "org-archivos", "name": "Organización de Archivos" },
+        { "id": "org-calendarios", "name": "Calendarios y Agendas" }
+      ]
+    },
+    {
+      "id": "productividad",
+      "name": "Productividad",
+      "icon": "zap",
+      "description": "Aplicaciones para optimizar el tiempo y mejorar el rendimiento personal y de equipo.",
+      "subcategories": [
+        { "id": "prod-tiempo", "name": "Seguimiento de Tiempo" },
+        { "id": "prod-automatizacion", "name": "Automatización Personal" },
+        { "id": "prod-enfoque", "name": "Enfoque y Concentración" },
+        { "id": "prod-contrasenas", "name": "Gestores de Contraseñas" }
+      ]
+    },
+    {
+      "id": "automatizacion",
+      "name": "Automatización",
+      "icon": "settings-2",
+      "description": "Soluciones para automatizar flujos de trabajo y procesos repetitivos.",
+      "subcategories": [
+        { "id": "auto-flujos", "name": "Flujos de Trabajo" },
+        { "id": "auto-integracion", "name": "Integración de Apps" },
+        { "id": "auto-bots", "name": "Bots y Asistentes" },
+        { "id": "auto-marketing", "name": "Marketing Automation" }
+      ]
+    },
+    {
+      "id": "administracion",
+      "name": "Administración",
+      "icon": "archive",
+      "description": "Herramientas para la gestión documental, inventarios y bases de conocimiento.",
+      "subcategories": [
+        { "id": "admin-documental", "name": "Gestión Documental" },
+        { "id": "admin-inventarios", "name": "Control de Inventarios" },
+        { "id": "admin-conocimiento", "name": "Bases de Conocimiento" },
+        { "id": "admin-clientes", "name": "Gestión de Clientes" }
+      ]
+    },
+    {
+      "id": "investigacion-data",
+      "name": "Investigación y Data",
+      "icon": "database-zap",
+      "description": "Plataformas para análisis, visualización de datos y recolección de información.",
+      "subcategories": [
+        { "id": "invdata-analisis", "name": "Análisis de Datos" },
+        { "id": "invdata-visualizacion", "name": "Visualización de Datos" },
+        { "id": "invdata-encuestas", "name": "Encuestas y Formularios" },
+        { "id": "invdata-scraping", "name": "Web Scraping" }
+      ]
+    },
+    {
+      "id": "gestion-proyectos",
+      "name": "Gestión de Proyectos",
+      "icon": "list-checks",
+      "description": "Software para planificar, seguir y colaborar en proyectos de cualquier tamaño.",
+      "subcategories": [
+        { "id": "gp-kanban", "name": "Tableros Kanban" },
+        { "id": "gp-gantt", "name": "Diagramas de Gantt" },
+        { "id": "gp-hitos", "name": "Seguimiento de Hitos" },
+        { "id": "gp-colaboracion", "name": "Colaboración en Proyectos" }
+      ]
+    },
+    {
+      "id": "comunicacion",
+      "name": "Comunicación",
+      "icon": "message-circle",
+      "description": "Medios para la interacción efectiva: mensajería, videoconferencias y más.",
+      "subcategories": [
+        { "id": "com-mensajeria", "name": "Mensajería Instantánea" },
+        { "id": "com-video", "name": "Videoconferencias" },
+        { "id": "com-foros", "name": "Foros y Comunidades" },
+        { "id": "com-email", "name": "Gestión de Email" }
+      ]
+    },
+    {
+      "id": "colaboracion",
+      "name": "Colaboración",
+      "icon": "users",
+      "description": "Herramientas para trabajar en equipo, compartir documentos y gestionar versiones.",
+      "subcategories": [
+        { "id": "colab-docs", "name": "Documentos Compartidos" },
+        { "id": "colab-pizarras", "name": "Pizarras Virtuales" },
+        { "id": "colab-versiones", "name": "Control de Versiones" },
+        { "id": "colab-espacios", "name": "Espacios de Trabajo" }
+      ]
+    },
+    {
+      "id": "diseno-grafico",
+      "name": "Diseño Gráfico",
+      "icon": "figma",
+      "description": "Software para creación visual, edición de imágenes y diseño de interfaces.",
+      "subcategories": [
+        { "id": "dg-edicionimg", "name": "Edición de Imágenes" },
+        { "id": "dg-vectorial", "name": "Diseño Vectorial" },
+        { "id": "dg-prototipado", "name": "Prototipado UI/UX" },
+        { "id": "dg-colores", "name": "Paletas de Colores" }
+      ]
+    },
+    {
+      "id": "audio-video",
+      "name": "Audio y Video",
+      "icon": "play-circle",
+      "description": "Herramientas para producción y edición multimedia, música y streaming.",
+      "subcategories": [
+        { "id": "av-edicionvid", "name": "Edición de Video" },
+        { "id": "av-prodmusica", "name": "Producción Musical" },
+        { "id": "av-grabpantalla", "name": "Grabación de Pantalla" },
+        { "id": "av-streaming", "name": "Plataformas de Streaming" }
+      ]
+    },
+    {
+      "id": "redaccion-copywriting",
+      "name": "Redacción y Copywriting",
+      "icon": "edit-3",
+      "description": "Asistentes para escritura persuasiva, corrección gramatical y generación de ideas.",
+      "subcategories": [
+        { "id": "rc-correctores", "name": "Correctores Gramaticales" },
+        { "id": "rc-ideas", "name": "Generadores de Ideas" },
+        { "id": "rc-legibilidad", "name": "Análisis de Legibilidad" },
+        { "id": "rc-storytelling", "name": "Herramientas de Storytelling" }
+      ]
+    },
+    {
+      "id": "seo-analitica",
+      "name": "SEO y Analítica",
+      "icon": "bar-chart-big",
+      "description": "Plataformas para optimización en buscadores y análisis de tráfico web.",
+      "subcategories": [
+        { "id": "seo-keywords", "name": "Investigación de Keywords" },
+        { "id": "seo-auditoria", "name": "Auditoría SEO" },
+        { "id": "seo-ranking", "name": "Seguimiento de Ranking" },
+        { "id": "seo-analisisweb", "name": "Análisis Web" }
+      ]
+    },
+    {
+      "id": "publicidad",
+      "name": "Publicidad",
+      "icon": "megaphone",
+      "description": "Herramientas para gestión de campañas publicitarias, PPC y diseño de creatividades.",
+      "subcategories": [
+        { "id": "pub-anuncios", "name": "Gestión de Anuncios" },
+        { "id": "pub-ppc", "name": "Plataformas PPC" },
+        { "id": "pub-creatividades", "name": "Diseño de Creatividades" },
+        { "id": "pub-analisis", "name": "Análisis de Campañas" }
+      ]
+    },
+    {
+      "id": "redes-sociales",
+      "name": "Redes Sociales",
+      "icon": "contact-2",
+      "description": "Gestión, programación y análisis de contenido en plataformas sociales.",
+      "subcategories": [
+        { "id": "rs-programacion", "name": "Programación de Posts" },
+        { "id": "rs-monitorizacion", "name": "Monitorización Social" },
+        { "id": "rs-analisis", "name": "Análisis de Redes" },
+        { "id": "rs-contenido", "name": "Creación de Contenido" }
+      ]
+    },
+    {
+      "id": "email-marketing",
+      "name": "Email Marketing",
+      "icon": "mail-check",
+      "description": "Plataformas para campañas de email, automatización y diseño de newsletters.",
+      "subcategories": [
+        { "id": "em-plataformas", "name": "Plataformas de Email" },
+        { "id": "em-automatizacion", "name": "Automatización de Correos" },
+        { "id": "em-plantillas", "name": "Diseño de Plantillas" },
+        { "id": "em-analisis", "name": "Análisis de Envíos" }
+      ]
+    },
+    {
+      "id": "ventas-crm",
+      "name": "Ventas y CRM",
+      "icon": "users-2",
+      "description": "Software para la gestión de relaciones con clientes y procesos de ventas.",
+      "subcategories": [
+        { "id": "vcrm-leads", "name": "Gestión de Leads" },
+        { "id": "vcrm-oportunidades", "name": "Seguimiento de Oportunidades" },
+        { "id": "vcrm-automatizacion", "name": "Automatización de Ventas" },
+        { "id": "vcrm-informes", "name": "Informes de Ventas" }
+      ]
+    },
+    {
+      "id": "ecommerce",
+      "name": "Ecommerce",
+      "icon": "shopping-cart",
+      "description": "Soluciones para crear tiendas online, gestionar pagos e inventario.",
+      "subcategories": [
+        { "id": "eco-plataformas", "name": "Plataformas de Tienda" },
+        { "id": "eco-pagos", "name": "Pasarelas de Pago" },
+        { "id": "eco-inventario", "name": "Gestión de Inventario" },
+        { "id": "eco-marketing", "name": "Marketing para Ecommerce" }
+      ]
+    },
+    {
+      "id": "finanzas",
+      "name": "Finanzas",
+      "icon": "landmark",
+      "description": "Herramientas para facturación, contabilidad, presupuestos y gestión de gastos.",
+      "subcategories": [
+        { "id": "fin-facturacion", "name": "Facturación" },
+        { "id": "fin-contabilidad", "name": "Contabilidad" },
+        { "id": "fin-presupuestos", "name": "Presupuestos" },
+        { "id": "fin-gastos", "name": "Gestión de Gastos" }
+      ]
+    },
+    {
+      "id": "proteccion-seguridad",
+      "name": "Protección y Seguridad",
+      "icon": "shield-check",
+      "description": "Recursos para ciberseguridad, VPNs, copias de seguridad y privacidad.",
+      "subcategories": [
+        { "id": "ps-antivirus", "name": "Antivirus y Malware" },
+        { "id": "ps-vpn", "name": "VPNs" },
+        { "id": "ps-backups", "name": "Copias de Seguridad" },
+        { "id": "ps-privacidad", "name": "Gestores de Privacidad" }
+      ]
+    },
+    {
+      "id": "creacion-ia",
+      "name": "Creación con IA",
+      "icon": "brain-circuit",
+      "description": "Inteligencia artificial para generar texto, imágenes, audio y código.",
+      "subcategories": [
+        { "id": "cia-texto", "name": "Generadores de Texto" },
+        { "id": "cia-imagenes", "name": "Generadores de Imágenes" },
+        { "id": "cia-voz", "name": "Asistentes de Voz" },
+        { "id": "cia-codigo", "name": "Herramientas de Código" }
+      ]
+    },
+    {
+      "id": "herramientas-freelancer",
+      "name": "Herramientas Freelancer",
+      "icon": "briefcase",
+      "description": "Utilidades para freelancers: contratos, propuestas, tiempo y pagos.",
+      "subcategories": [
+        { "id": "hf-contratos", "name": "Gestión de Contratos" },
+        { "id": "hf-propuestas", "name": "Creación de Propuestas" },
+        { "id": "hf-tiempo", "name": "Seguimiento de Tiempo" },
+        { "id": "hf-pagos", "name": "Plataformas de Pago" }
+      ]
+    },
+    {
+      "id": "formularios-reservas",
+      "name": "Formularios y Reservas",
+      "icon": "calendar-check-2",
+      "description": "Sistemas para crear formularios, gestionar reservas, citas y encuestas.",
+      "subcategories": [
+        { "id": "fr-formularios", "name": "Creación de Formularios" },
+        { "id": "fr-sistemasreservas", "name": "Sistemas de Reservas" },
+        { "id": "fr-citas", "name": "Gestión de Citas" },
+        { "id": "fr-encuestas", "name": "Encuestas de Satisfacción" }
+      ]
+    }
+  ]
+}
